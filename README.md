@@ -53,13 +53,21 @@ Engaging micro-interactions.
 
 ##**🛍️ How to Run the Project**
 Clone the repository:
+
 git clone https://github.com/Mariaescapereality/ateliersucre_front.git
+
 cd ateliersucre_front
+
 Install dependencies:
+
 npm install
+
 Run the development server:
+
 npm run dev
+
 Open in your browser:
+
 Navigate to http://localhost:8080 to explore the project.
 
 ---
