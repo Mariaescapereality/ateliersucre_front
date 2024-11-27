@@ -4,14 +4,14 @@
 ---
 
 ##**🌟 About the Project**
-This project is a modern and elegant frontend built with Vue 3 for an e-commerce platform that sells exclusive pastry boxes. Each box is a fusion of culinary artistry and design, crafted in collaboration with talented designers, Fatima & Salma, from the CDUI/UX program. The goal was to create a delightful user experience (UX) while showcasing visually stunning products.
+This project is a modern and elegant frontend built with Vue 3 for an **e-commerce website** that sells exclusive pastry boxes. Each box is a fusion of culinary artistry and design, crafted in collaboration with talented designers, Fatima & Salma, from the CDUI/UX program. The goal was to create a delightful user experience (UX) while showcasing visually stunning products.
 
 The e-shop features:
 
 A responsive and intuitive user interface tailored for diverse devices.
 Dynamic product pages showcasing pastry boxes with designer insights.
 A seamless shopping experience with cart and checkout functionality.
-RESTful API integration for backend communication.
+**RESTful API** integration for backend communication.
 
 ---
 
@@ -29,7 +29,7 @@ Accessibility First: Ensures usability for all, including visually impaired user
 Frontend Framework: Vue 3
 Styling: SCSS
 API Calls: Axios
-Build Tool: Vue-x
+Build Tool: vuex
 Version Control: Git
 
 ---
