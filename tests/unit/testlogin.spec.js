@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils';
 import { createStore } from 'vuex';
 import { createRouter, createWebHistory } from 'vue-router';
-import LoginPage from '@/components/LoginPage.vue';
+import LoginPage from '@/views/LoginPage.vue';
 
 const mockPush = jest.fn();
 
