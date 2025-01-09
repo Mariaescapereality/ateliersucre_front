@@ -13,7 +13,6 @@ jobs: #githubvacreerunserveurvirtuelquivalancernotrecode
   build:
     name: launch build
     runs-on: ubuntu-latest
-    needs: [lint, test] #abesoinsdesjobsprécédentspourfonctionner
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
