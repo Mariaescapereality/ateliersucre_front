@@ -23,7 +23,7 @@ jobs:
 
       # Step 3: Install dependencies
       - name: Install frontend dependencies
-        run: npm install
+        run: npm ci 
 
       # Step 4: Run tests
       - name: run test
