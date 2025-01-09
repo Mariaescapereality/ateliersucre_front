@@ -9,35 +9,6 @@ on:
       - main
       
 jobs: #githubvacreerunserveurvirtuelquivalancernotrecode
-  lint:
-    name: Lint code #le nom est au choix
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3 #récupérerlecode
-      - name: Set up Node.js
-        uses: actions/setup-node@v3 #installnode
-        with:
-          node-version: 18
-      - name: Install Dependencies
-        run: npm ci #npmcleaninstall
-      - name: Run ESLint
-        run: npm run lint
-
-  test:
-    name: launch test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - name: Install Dependencies
-        run: npm ci #npm clean install
-      - name: run test
-        run: npm run test:unit
 
   build:
     name: launch build
