@@ -26,7 +26,7 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       # Step 4: Run tests
-      - name: run test
+      - name: Run tests
         run: npm run test:unit
 
       # Step 5: Lint code
@@ -36,5 +36,13 @@ jobs:
       # Step 6: Build frontend
       - name: Build frontend
         run: npm run build
+
+      # Step 7: Deploy to Netlify
+      - name: Deploy to Netlify
+        run: |
+          npm install -g netlify-cli
+          netlify deploy --prod --dir=dist --auth=$NETLIFY_AUTH_TOKEN
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
 
