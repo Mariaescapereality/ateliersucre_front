@@ -1,3 +1,6 @@
-module.exports = {
-  preset: '@vue/cli-plugin-unit-jest/presets/typescript',
-};
+"jest": {
+  "transformIgnorePatterns": [
+    "/node_modules/(?!@vue|some-other-package)"
+  ]
+}
+
